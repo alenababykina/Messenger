@@ -41,10 +41,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         authManager = appDelegate.authManager
-
-        self.emailTextField.text = "alena@fakemail.com";
-//        self.emailTextField.text = "bob@fakemail.com";
-        self.passTextField.text = "qwerty";
         
         self.goToLoginOnTap(nil)
     }
